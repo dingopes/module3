@@ -9,7 +9,7 @@ body {
 
     border-radius: 0;
     border: 0;
-    padding: 10px;
+    padding: 5px;
     background-color: grey;
 
  }
@@ -19,11 +19,21 @@ body {
     font-size: 2em;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: white;
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: white;
 
+
+
+}
 
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
@@ -83,4 +93,9 @@ text-align: center;
     -ms-transition:all .4s;
     -o-transition:all .4s;
     transition:all .4s;
+}
+
+.navbar-default .dropdown-menu {
+     background-color: #3344ff;
+     color:#ffffff;
 }
