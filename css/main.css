@@ -1,0 +1,67 @@
+body {
+    font-size: 16px;
+    color: white;
+    font-family: font-family: 'Open Sans', sans-serif;
+}
+
+/**header**/
+#header-nav {
+
+    border-radius: 0;
+    border: 0;
+    padding: 10px;
+    background-color: grey;
+
+ }
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 2em;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+
+
+}
+
+#podnadpis p {
+color:grey;
+padding: 20px;
+font-size:1.8em;
+
+}
+
+#obsah {
+    padding:20px;
+    background-color: grey;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.container {
+text-align: center;
+}
+
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar .collapsed {
+  border: 1px solid darkgrey;
+}
