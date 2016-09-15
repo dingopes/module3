@@ -55,6 +55,8 @@ text-align: center;
 }
 
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -64,4 +66,21 @@ text-align: center;
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar .collapsed {
   border: 1px solid darkgrey;
+}
+
+.navbar-default button.navbar-toggle.collapsed:focus,
+.navbar-default button.navbar-toggle.collapsed{ background-color: transparent;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+}
+.navbar-default button.navbar-toggle:focus,
+.navbar-default button.navbar-toggle.collapsed:hover{ background-color:#ddd;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
 }
